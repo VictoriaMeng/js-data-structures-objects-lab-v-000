@@ -2,5 +2,5 @@
 const driver = {};
 function updateDriverWithKeyAndValue(driver, key, value){
   const newObj = {key: value};
-  return {...newObj, ...driver };
+  return {...driver, ...newObj};
 }
